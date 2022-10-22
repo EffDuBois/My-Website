@@ -1,0 +1,81 @@
+html, body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    text-align: center;
+    background-color:white;
+}
+html::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.box {
+    border: 5px dotted black;
+}
+
+#pfp-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5%;
+    background-image: url(images/pfp.jpg);
+    background-size: cover;
+    box-shadow: inset 1px 1px 5px black;
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 3px 3px 10px 0 #000000;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
+#hero {
+    height: 700px;
+    padding: 50px 0px 20px;
+    background-color: #bbb;
+    margin: 0px;
+    box-shadow:inset 0px -10px 20px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#content{
+    padding: 150px 0px 0px;
+    margin: 0px;
+}
+
+#intro {
+    margin: 0px;
+    size: 25%;
+}
+
+#footer {
+    padding-top: 100px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contactelements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico {
+    height: 1pc;
+    padding: 0.5pc;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
