@@ -50,11 +50,26 @@ html::-webkit-scrollbar{
     background-color: #fff;
     padding: 150px 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 #intro {
+    background-color: rgb(175, 255, 228);
+    align-self: start;
+    text-align: start;
+    padding-left: 40px;
+    width: 50%;
     margin: 15px;
     size: 25%;
+}
+
+#projects {
+    background-color: rgb(210, 255, 240);
+    align-self: flex-end;
+    text-align: end;
+    width: 50%;
+    margin: 150px;
 }
 
 #footer {
