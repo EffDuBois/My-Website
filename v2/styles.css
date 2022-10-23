@@ -57,6 +57,10 @@ html::-webkit-scrollbar{
     #footer {
       flex-direction: column;
     }
+
+    #hero {
+        justify-content: center;
+    }
   }
 .contactelements {
     display: flex;
