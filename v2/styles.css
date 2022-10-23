@@ -34,8 +34,8 @@ html::-webkit-scrollbar{
     width: 100%;
     min-height: 99vh;
     background-color: #bbb;
+    box-shadow: inset 0px -10px 20px black;
     margin: 0px;
-    box-shadow:inset 0px -10px 20px black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,11 +53,26 @@ html::-webkit-scrollbar{
     background-color: #fff;
     padding: 150px 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 #intro {
+    background-color: rgb(175, 255, 228);
+    align-self: start;
+    text-align: start;
+    padding-left: 40px;
+    width: 50%;
     margin: 15px;
     size: 25%;
+}
+
+#projects {
+    background-color: rgb(210, 255, 240);
+    align-self: flex-end;
+    text-align: end;
+    width: 50%;
+    margin: 150px;
 }
 
 #footer {
