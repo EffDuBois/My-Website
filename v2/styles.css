@@ -42,7 +42,7 @@ html::-webkit-scrollbar{
 }
 
 #intro {
-    margin: 0px;
+    margin: 15px;
     size: 25%;
 }
 
@@ -53,6 +53,11 @@ html::-webkit-scrollbar{
     flex-direction: row;
     justify-content: space-evenly;
 }
+@media (max-width: 800px) {
+    #footer {
+      flex-direction: column;
+    }
+  }
 .contactelements {
     display: flex;
     justify-content: center;
