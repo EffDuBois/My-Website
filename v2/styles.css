@@ -11,13 +11,15 @@ html::-webkit-scrollbar{
     scrollbar-width: none;
 }
 
-#pfp-img{
-    width: 150px;
-    height: 150px;
+#pfp-img , #shadow{
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    padding: 5%;
-    background-image: url(images/pfp.jpg);
-    background-size: cover;
+}
+
+#shadow{
+    position: absolute;
+    top: 267px;
     box-shadow:inset 0px 0px 7px black,0px 0px 10px gray;
 }
 
