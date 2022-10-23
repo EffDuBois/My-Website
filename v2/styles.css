@@ -10,9 +10,9 @@ html, body {
 
 
 }
-/* html::-webkit-scrollbar{
+html::-webkit-scrollbar{
     display: none;
-}*/
+}
 
 #hero {
     width: 100%;
