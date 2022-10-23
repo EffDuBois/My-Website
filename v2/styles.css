@@ -40,8 +40,6 @@ html::-webkit-scrollbar{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    z-index: 0;
 }
 
 #hello {
@@ -49,7 +47,6 @@ html::-webkit-scrollbar{
 }
 
 #content{
-    z-index: 1;
     background-color: #fff;
     padding: 150px 0px;
     margin: 0px;
