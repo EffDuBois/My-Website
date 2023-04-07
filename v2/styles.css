@@ -4,6 +4,7 @@ html, body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
     color: #222;
+    font-size: 20px;
     text-align: center;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -12,6 +13,10 @@ html, body {
 }
 html::-webkit-scrollbar{
     display: none;
+}
+
+h1{
+    font-size: 60px;
 }
 
 #hero {
@@ -29,10 +34,23 @@ html::-webkit-scrollbar{
     z-index: -1;
 }
 
+#content{
+    z-index: 1;
+    background-color: #fff;
+    padding: 50px 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0px 0px 50px black;
+}
+
+
 #pfp-wrapper {
     width: 300px;
     height: 300px;
+    margin: 30px;
     position: relative;
+    align-self: center;
 }
 
 #pfp-img, #shadow{
@@ -49,45 +67,35 @@ html::-webkit-scrollbar{
 }
 
 
-
-
 #hello {
     margin: 50px;
 }
 
-#content{
-    z-index: 1;
-    background-color: #fff;
-    padding: 150px 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    box-shadow:0px 0px 50px black;
-    background-image: linear-gradient(
-        to top,
-        transparent 60px, 
-        #fff 60px, 
-        #fff 0
-      );
-}
-
-#intro {
-    background-color: rgb(175, 255, 228);
+.left-side-card {
+    width: 70%;
+    background: rgb(0,255,168);
+    background: radial-gradient(circle at top left, rgba(113,255,206,1) 0%, rgba(113,255,206,1) 8%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
     align-self: start;
     text-align: start;
-    padding-left: 40px;
-    width: 50%;
+    padding: 5px 40px;
     margin: 15px;
-    size: 25%;
 }
 
-#projects {
-    background-color: rgb(210, 255, 240);
+.right-side-card {
+    width: 50%;
+    background: rgb(0,255,168);
+    background: radial-gradient(circle at 30%,  rgba(113,255,206,1) 0%, rgba(113,255,206,1) 8%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);   
     align-self: flex-end;
     text-align: start;
-    width: 50%;
-    margin: 150px;
-    padding-left: 40px;
+    padding: 5px 40px;
+    margin: 15px;
+}
+
+.blue-text {
+    color: rgb(18, 122, 187);
+}
+.orange-text {
+    color: orange;
 }
 
 #footer {
