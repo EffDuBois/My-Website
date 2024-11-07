@@ -5,8 +5,10 @@ body {
   font-family: serif;
   background-color: #ddd;
 }
-
+h2 {
+  text-align: center;
+}
 .key-val {
   display: grid;
-  grid: auto / 130px auto;
+  grid: auto / 20% auto;
 }
