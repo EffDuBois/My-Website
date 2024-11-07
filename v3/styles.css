@@ -1,0 +1,12 @@
+html,
+body {
+  padding: 0;
+  margin: 20px;
+  font-family: serif;
+  background-color: #ddd;
+}
+
+.key-val {
+  display: grid;
+  grid: auto / 130px auto;
+}
