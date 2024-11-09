@@ -5,10 +5,25 @@ body {
   font-family: serif;
   background-color: #ddd;
 }
-h2 {
-  text-align: center;
+
+ul {
+  padding: 0;
 }
-.key-val {
-  display: grid;
-  grid: auto / 20% auto;
+.no-margins {
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .key-val {
+  }
+}
+@media only screen and (min-width: 600px) {
+  .key-val {
+    display: grid;
+    grid: auto / 20% auto;
+    gap: 15px;
+  }
+  .pl {
+    padding-left: 10px;
+  }
 }
